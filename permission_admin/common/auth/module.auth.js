@@ -1,0 +1,1 @@
+angular.module(auth_name,['ipCookie',core_name])

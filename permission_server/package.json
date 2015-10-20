@@ -1,0 +1,24 @@
+{
+  "name": "node-angular-permission",
+  "version": "1.0.0",
+  "description": "how to permission with node ,angular",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node-odata",
+    "angular",
+    "permission"
+  ],
+  "author": "weiyang",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "cors": "^2.7.1",
+    "errorhandler": "^1.4.2",
+    "morgan": "^1.6.1",
+    "node-odata": "^0.7.6"
+  }
+}

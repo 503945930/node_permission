@@ -1,0 +1,27 @@
+{
+  "name": "permission_admin",
+  "version": "0.0.1",
+  "authors": [
+    "weiyang <503945930@qq.com>"
+  ],
+  "description": "angular permission",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "ui-router#~0.2.15",
+    "angular": "~1.4.7",
+    "font-awesome": "~4.4.0",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "angular-cookie": "~4.0.9"
+  }
+}

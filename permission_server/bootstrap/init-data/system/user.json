@@ -1,0 +1,19 @@
+
+[
+  {
+    "account": "user",
+    "password":"user",
+    "role":"SuperAdmin",
+    "permission":["Bootstrap2","Bootstrap3","Bootstrap4"],
+    "router":["/bt2","/bt3","/bt4"],
+    "userInfo":{"IDCard":"111","age":11,"sex":"男"}
+  },
+  {
+    "account": "admin",
+    "password":"admin",
+    "role":"SuperAdmin",
+    "permission":["Bootstrap2","Bootstrap3","Bootstrap4","Less","jQuery","Salary"],
+    "router":["/bt2","/bt3","/bt4","/less","/jquery","/salary"],
+    "userInfo":{"IDCard":"111","age":11,"sex":"男"}
+  }
+]

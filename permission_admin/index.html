@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css" media="screen">
+    .center {
+        margin:
+    }
+    </style>
+</head>
+
+<body ng-controller="MainController">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container" ui-view="header">
+        </div>
+    </div>
+    <!-- /header -->
+    <div class="jumbotron masthead">
+        <div class="container" style="height: 650px">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 main" ui-view="content">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /container -->
+    <footer class="footer ">
+        <div class="container" ui-view="footer">
+           
+        </div>
+    </footer>
+    <!-- footer -->
+</body>
+<script src="bower_components/angular/angular.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="bower_components/angular-cookie/angular-cookie.min.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="bower_components/bootstrap/js/dropdown.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="app/app.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="app/app.router.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/init.config.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/init.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/init.router.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/auth/module.auth.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/core/module.core.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/auth/directives/access.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/auth/controller/loginController.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/auth/controller/mainController.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/auth/services/authentication.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="common/auth/services/authorization.js" type="text/javascript" charset="utf-8" defer></script>
+
+</html>

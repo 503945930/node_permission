@@ -1,0 +1,22 @@
+<div class="navbar-header">
+    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand hidden-sm" href="/">Bootstrap中文网</a>
+</div>
+<div class="navbar-collapse collapse" role="navigation">
+    <ul class="nav navbar-nav">
+        <li class="hidden-sm hidden-md" access="Bootstrap2"><a ui-sref='bt2'>Bootstrap2中文文档</a></li>
+        <li access="Bootstrap3"><a ui-sref='bt3'>Bootstrap3中文文档</a></li>
+        <li access="Bootstrap4"><a ui-sref='bt4'>Bootstrap 4.0 预览</a></li>
+        <li access="Less"><a ui-sref='less'>Less 教程</a></li>
+        <li access="jQuery"><a ui-sref='jquery'>jQuery API</a></li>
+        <li access="Salary"><i class="fa fa-fire job-hot"></i><a ui-sref='salary'>高薪工作</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right hidden-sm" ng-controller="loginCtrl">
+        <li ng-click="logout()"><a>退出</a></li>
+    </ul>
+</div>
